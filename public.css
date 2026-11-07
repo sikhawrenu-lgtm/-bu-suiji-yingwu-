@@ -1,0 +1,28 @@
+.brand {
+  display: grid;
+  gap: 1px;
+  padding: 0 10px;
+  font-size: inherit;
+}
+
+.brand span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.brand small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sidebar nav {
+  margin-top: 36px;
+}
+
+@media (max-width: 850px) {
+  .brand {
+    padding-top: 4px;
+  }
+}
+
